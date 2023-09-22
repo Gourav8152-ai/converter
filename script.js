@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 ctx.drawImage(img, 0, 0);
 
                 // Convert the image to JPEG format with quality 0.8 (adjust as needed)
-                const convertedDataUrl = canvas.toDataURL('image/jpeg', 0.8);
+                const convertedDataUrl = canvas.toDataURL('image/jpeg', 1.0);
                 resolve(convertedDataUrl);
             };
         });
