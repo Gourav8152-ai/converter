@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Image Converter</h1>
+    </header>
+    <main>
+        <div class="file-upload">
+            <input type="file" id="file-input" multiple>
+            <label for="file-input">Choose Images</label>
+        </div>
+        <button id="convert-button">Convert to JPEG</button>
+        <button id="download-all-button">Download All</button>
+        <div id="output"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
